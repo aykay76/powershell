@@ -1,3 +1,5 @@
+# Example script to take public IP lists from Microsoft (published every Tuesday) and add them to 
+# ADLS firewall to restrict access from certain networks.
 Param(
     [string]$DataLakeName,
     [string]$Region = "europewest"
